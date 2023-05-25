@@ -7,10 +7,10 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  const somebody = ["luke", "vader", "leia", "han"];
-  const action = ["fought", "saved", "beat", "found"];
+  const somebody = ["luke", "darthvader", "leia", "hansolo"];
+  const action = ["fought", "saved", "discovered", "found"];
   const whatever = ["star", "force", "saber", "droid"];
-  const when = ["wars", "rogue", "clones", "jedi"];
+  const when = ["wars", "rogue", "clone", "jedi"];
   const domainEnd = [".com", ".es", ".net", ".org"];
 
   const somebodyStarWars = Math.floor(Math.random() * somebody.length);
